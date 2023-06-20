@@ -1,0 +1,27 @@
+{
+  "name": "JMWMZBanner",
+  "version": "0.1.0",
+  "summary": "A short description of JMWMZBanner.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/James-Geng/JMWMZBanner.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1345492794@qq.com": "1345492794@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/James-Geng/JMWMZBanner.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "JMWMZBanner/Classes/**/*",
+  "dependencies": {
+    "SDWebImage": [
+
+    ]
+  }
+}

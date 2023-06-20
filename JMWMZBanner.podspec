@@ -21,16 +21,18 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/1345492794@qq.com/JMWMZBanner'
+  s.homepage         = 'https://github.com/James-Geng/JMWMZBanner.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '1345492794@qq.com' => 'gengruijie@yunniao.me' }
-  s.source           = { :git => 'https://github.com/1345492794@qq.com/JMWMZBanner.git', :tag => s.version.to_s }
+  s.author           = { '1345492794@qq.com' => '1345492794@qq.com' }
+  s.source           = { :git => 'https://github.com/James-Geng/JMWMZBanner.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'JMWMZBanner/Classes/**/*'
+  
+  s.dependency  'SDWebImage'
   
   # s.resource_bundles = {
   #   'JMWMZBanner' => ['JMWMZBanner/Assets/*.png']

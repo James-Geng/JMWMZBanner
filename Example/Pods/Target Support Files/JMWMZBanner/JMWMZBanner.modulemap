@@ -1,0 +1,6 @@
+framework module JMWMZBanner {
+  umbrella header "JMWMZBanner-umbrella.h"
+
+  export *
+  module * { export * }
+}

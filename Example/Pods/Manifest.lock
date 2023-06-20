@@ -1,0 +1,25 @@
+PODS:
+  - JMWMZBanner (0.1.0):
+    - SDWebImage
+  - SDWebImage (5.15.6):
+    - SDWebImage/Core (= 5.15.6)
+  - SDWebImage/Core (5.15.6)
+
+DEPENDENCIES:
+  - JMWMZBanner (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  JMWMZBanner:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JMWMZBanner: 73ad8e7fed2cfd50a06b1337dd8a352012627d85
+  SDWebImage: d47d81bea8a77187896b620dc79c3c528e8906b9
+
+PODFILE CHECKSUM: 698a676738358cd0be2c820976765977c86243ed
+
+COCOAPODS: 1.11.3
