@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'JMWMZBanner_Example' do
+  pod 'JMWMZBanner', :path => '../'
+
+  target 'JMWMZBanner_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
