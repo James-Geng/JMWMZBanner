@@ -42,6 +42,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (assign, nonatomic) UIEdgeInsets sectionInset;
 
+@property (assign, nonatomic) BOOL autoScroll;
+
 -(void)ht_registerCellClassName:(NSString *) andClassName;
 
 -(WMZBannerParam *)ht_getWMZHomeBannerParam;

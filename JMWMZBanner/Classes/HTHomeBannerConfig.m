@@ -55,7 +55,7 @@
     //循环
     .wRepeatSet(YES)
     /// 自动循环
-    .wAutoScrollSet(YES)
+    .wAutoScrollSet(self.autoScroll)
    //整体左右间距  设置为size.width的一半 让最后一个可以居中
    .wSectionInsetSet(self.sectionInset)
    //间距
